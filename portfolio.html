@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="website icon" type="png" href="./New Project (2) (1).png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Poppins:wght@400;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+</head>
+<body>
+    <header class="head">
+  <nav>
+  <a class="logo" href="index.html">Mohamed.</a>
+
+  <!-- hamburger button -->
+  <button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+
+  <!-- your links -->
+  <ul class="heada">
+    <li><a href="./index.html">About</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+  </ul>
+</nav>
+    </header>
+
+    <div class="portfolio-all">
+
+        <div class="portfolio">
+            <p>Portfolio</p>
+
+            <div class="salit">__________</div>
+        </div>        
+
+    </div>
+
+
+
+      <section id="portfoliooo" class="portfoliooo">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <div class="card">
+        <img src="./sign.png" alt="Project 1">
+        <h3>Sign in / sign up page</h3>
+        <p>HTML / CSS </p>
+        <div class="buttons">
+          <a href="https://x-codeer.github.io/sign-up-in-Form/" class="btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./links.png" alt="Project 2">
+        <h3>Social media Links</h3>
+        <p>HTML / CSS</p>
+        <div class="buttons">
+          <a href="https://x-codeer.github.io/LinksSocial/" class="btn">Live Demo</a>
+        </div>
+      </div>
+        <div class="card">
+            <img src="./Portfolioweb.png" alt="Project 3">
+            <h3>Portfolio Web</h3>
+            <p>HTML / CSS</p>
+            <div class="buttons">
+            <a href="https://x-codeer.github.io/arbeiten/" class="btn">Live Demo</a>
+            </div>
+      <!-- More cards... -->
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+    <footer>
+        <h5>&copy; all rights are reserved by <a href="./index.html"><span>@SK__MD</span></a></h5>
+    </footer>
+
+
+  
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const menu = document.querySelector('.heada');
+
+  menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>

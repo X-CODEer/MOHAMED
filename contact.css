@@ -1,0 +1,475 @@
+*{
+    margin:0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(90deg,#4b6cb7,#182848);
+  color: #fff;
+  }
+nav ul{
+    float: right;
+    gap: 30px;
+    margin-right: 120px;
+}
+.logo{
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 0 80px;
+    font-size: 30px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.contactt{
+  color: #ffffff;
+}
+
+.contactt {
+  text-decoration: underline;
+}
+
+
+/* قسم التواصل */
+.contact-all {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #333;
+}
+
+.contact p{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+    color: #333;
+}
+
+.email{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    color: #333;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 1000px;
+    margin-right: 8rem;
+    padding-top: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    background-color: #f5f5f5;
+}
+
+.salit{
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+span.tele:hover{
+  color: #ffffff;
+}
+
+span.insta:hover{
+  color: #ffffff;
+}
+
+span.git:hover{
+  color: #ffffff;
+}
+
+span.nmbr:hover{
+  color: #ffffff;
+}
+
+span.tele:hover{
+  color: #ffffff;
+}
+
+span.insta:hover{
+  color: #ffffff;
+}
+
+span.git:hover{
+  color: #ffffff;
+}
+
+.email a{
+  background: #3f3f3f5d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+}
+
+.email a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ألوان hover نفس المنصات */
+a.insta:hover{
+  background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf, #4f5bd5 );
+}
+
+a.git:hover{
+  background: linear-gradient(135deg, #24292e, #181717);
+}
+
+a.whats:hover{
+  background: linear-gradient(135deg, #25D366, #128C7E);
+}
+a.whats:hover{
+  color: #ffffff;
+}
+
+a.tele:hover{
+  background: linear-gradient(135deg, #29a9eb, #0088cc);
+}
+
+span.git:hover{
+  color: #ffffff;
+}
+span.tele:hover{
+  color: #ffffff;
+}
+span.insta:hover{
+  color: #ffffff;
+}
+span.whats:hover{
+  color: #ffffff;
+}
+
+.social{
+  color: #4b6cb7;
+}
+
+/* الزر في الموبايل */
+.menu-btn {
+  display: none;
+  font-size: 26px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+  }
+
+  .heada {
+    display: none;
+    flex-direction: column;
+    background: linear-gradient(90deg,#4b6cb7,#182848);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .heada.show {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .heada li {
+    margin: 15px 0;
+  }
+}
+
+/* Footer بالألوان الأصلية */
+footer {
+    background-color: #0c171a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+#footer{
+    padding-top: 40px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    position: relative;
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.logo-footer a{
+    font-size: 35px;
+    color: #5a8c8c;
+    font-family: 'Edu VIC WA NT Beginner';
+    font-weight: 600;
+}
+
+.about p{
+    color: #9b9b9b;
+    line-height: 25px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+
+footer a span{
+    color: #9fdbf4;
+}
+
+footer{
+    background-color: #001d1d;
+}
+
+
+
+
+
+
+
+/* Responsive menu */
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    margin: 0 20px;
+    font-size: 24px;
+  }
+
+  .heada {
+    display: none;
+    flex-direction: column;
+    background: linear-gradient(90deg,#4b6cb7,#182848);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .heada.show {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .heada li {
+    margin: 15px 0;
+  }
+
+  .email {
+    width: 90%;
+    margin: 5rem auto;
+    margin-right: 0;
+  }
+
+  .contact p {
+    font-size: 40px;
+  }
+}
+
+/* Footer بالألوان الأصلية */
+footer {
+  background-color: #0c171a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+#footer {
+  padding-top: 40px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  position: relative;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.logo-footer a {
+  font-size: 35px;
+  color: #5a8c8c;
+  font-family: 'Edu VIC WA NT Beginner';
+  font-weight: 600;
+}
+
+.about p {
+  color: #9b9b9b;
+  line-height: 25px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #5a5a5a;
+  text-decoration: underline;
+}
+
+footer a span {
+  color: #9fdbf4;
+}
+
+footer {
+  background-color: #001d1d;
+}
+
+/* extra tweak for footer on small screens */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links h4 {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+.menu-btn {
+  display: none;
+  font-size: 28px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* mobile styles */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+  nav ul.heada {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background: linear-gradient(90deg,#4b6cb7,#182848);
+    animation: slideDown 0.3s ease;
+  }
+  nav ul.heada.show {
+    display: flex;
+  }
+  nav ul.heada li {
+    margin: 10px 0;
+  }
+}
+
+/* simple slide animation */
+@keyframes slideDown {
+  0% {opacity: 0; transform: translateY(-10px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
